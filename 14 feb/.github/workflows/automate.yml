@@ -15,8 +15,3 @@ jobs:
         docker build -t rakshitagarg08/devops_lab_500106002:v0.1 .
         docker push rakshitagarg08/devops_lab_500106002:v0.1
         
-        # - name: Build & Push Image
-        #   run: |
-        #     echo ${{ secrets.DOCKERTOKEN }} | docker login -u "prateekrajgautam" --password-stdin
-        #     docker build -t prateekrajgautam/upesmajorproject:v0.1 .
-        #     docker push prateekrajgautam/upesmajorproject:v0.1
